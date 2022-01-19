@@ -1,0 +1,17 @@
+1. Get blog entries aligned in container properly
+
+2. Have title above container
+
+3. Redirect user to a new html page when entry clicked
+
+4. Make a header with parallax effect
+
+8. Fill in about me section
+
+9. Style to make it look modern and nice
+
+10. Create html page for first blog entry
+
+11. Push to github and create io page
+
+12. Link site on asulearn 

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  background-image: url("../assets/desert_night.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.post-container {
+  width: 800px;
+  padding: 10px;
+  /* width: -content; */
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  background: aliceblue;
+}
+.post-title {
+  text-align: center;
+  font-size: 25px;
+}
+.post-body {
+  text-align: justify;
+  font-size: 18px;
+}

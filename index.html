@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabe Price's Blog</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- <p class="container-title">Blog Entries</p> -->
+
+    <div class="title-bar">
+      <p>Gabe Price's Blog</p>
+    </div>
+    <div class="main-container">
+      <div class="post-container">
+        <div class="post" id="post-1">
+          <div class="post-title">
+            Post 1: Best in-class/out-of-class Experiences
+          </div>
+        </div>
+      </div>
+      <aside class="about-me">
+        <p class="about-me-title">About Me</p>
+        <hr />
+        <p>
+          Computer Science senior. Grew up in Asheville, NC and grew an
+          admiration for nature and hiking, especially in western NC. I like
+          developing my programming skills, working out, playing games, and
+          watching anime in my free time.
+        </p>
+      </aside>
+    </div>
+  </body>
+  <script>
+    document.getElementById("post-1").addEventListener("click", () => {
+      window.location = "./posts/post1.html";
+    });
+    console.log("yo");
+  </script>
+</html>
